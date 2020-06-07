@@ -49,3 +49,5 @@ http://ellariel.shinyapps.io/r-shiny-app-pitch
 <img src="www/iris.png" width=450>
 </div>
 
+You can familiar with ui.R and server.R in github: 
+http://github.com/ellariel/r-shiny-app-pitch

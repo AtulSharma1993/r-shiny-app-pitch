@@ -1,0 +1,10 @@
+name: Publish Document
+title:
+username:
+account: rpubs
+server: rpubs.com
+hostUrl: rpubs.com
+appId: https://api.rpubs.com/api/v1/document/624868/bdda3272eb7f4f698f69ea2bee4c6293
+bundleId: https://api.rpubs.com/api/v1/document/624868/bdda3272eb7f4f698f69ea2bee4c6293
+url: http://rpubs.com/Ellariel/624868
+when: 1591536592.6189
