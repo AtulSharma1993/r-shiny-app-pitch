@@ -1,12 +1,11 @@
 ---
 title: "Shiny Application: classify and predict"
 output:
+  pdf_document: default
   html_document:
     keep_md: yes
-  pdf_document: default
-
 ---
-D.V.
+D.V. 07/06/20
 
 
 # Synopsis
@@ -29,7 +28,7 @@ library(rpart.plot)
 # Attach the dataset to the environment
 data(iris)
 # Get help on the data
-help(iris)
+#help(iris)
 # Rename the data
 data<-iris
 # View the data

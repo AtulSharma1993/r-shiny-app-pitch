@@ -1,0 +1,13 @@
+name: r-shiny-app-pitch
+title: r-shiny-app-pitch
+username:
+account: ellariel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2420533
+bundleId: 3238021
+url: https://ellariel.shinyapps.io/r-shiny-app-pitch/
+when: 1591523695.20078
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: report.Rmd

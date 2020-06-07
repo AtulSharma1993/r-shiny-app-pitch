@@ -1,0 +1,39 @@
+```{r setup, include=FALSE}
+library(rpart)
+library(rpart.plot)
+```
+
+Shiny Application: classify and predict
+========================================================
+author: D.V.
+date: 07/06/20
+autosize: true
+
+Synopsis
+========================================================
+At this project we make the prediction Shiny-app which can classify your Iris flower by its measures, based on Edgar Anderson's Iris Data. For prediction we use rpart decision tree model.
+
+Edgar Anderson's Iris Data is famous (Fisher's or Anderson's) iris data set gives the measurements in centimeters of the variables sepal length and width and petal length and width, respectively, for 50 flowers from each of 3 species of iris (setosa, versicolor, and virginica).
+
+Data
+========================================================
+We use classical dataset: Fisher R.A. (1936) The use of multiple measurements in taxonomic problems / Annals of Eugenics.
+```{r}
+data(iris)
+head(iris, n=3)
+```
+
+Our classificator
+========================================================
+We train the desicion tree classificator (rpart tree) by whole data because we don't need to choose best model, we need just interpolar prediction.
+```{r}
+tree <- rpart(Species ~ ., data = data, method = "class")
+rpart.plot(tree)
+```
+
+Just try!
+========================================================
+
+http://ellariel.shinyapps.io/r-shiny-app-pitch
+
+![alt text](www/iris.png)
