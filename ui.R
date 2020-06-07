@@ -8,7 +8,7 @@ shinyUI(pageWithSidebar(
    
   # Left panel with control elements
   sidebarPanel(
-    #h5("... and age range"),
+    
     sliderInput("Petal.Length",label = "Petal Length",
                 min = 1.0, max = 6.9, value = 2.2),
     sliderInput("Petal.Width",label = "Petal Width",
@@ -16,8 +16,9 @@ shinyUI(pageWithSidebar(
     sliderInput("Sepal.Length",label = "Sepal Length",
                 min = 4.3, max = 7.9, value = 5.3),
     sliderInput("Sepal.Width",label = "Sepal Width",
-                min = 2.0, max = 4.4, value = 2.7)
-  ),
+                min = 2.0, max = 4.4, value = 2.7),
+    h6("You can familiar with ui.R and server.R in github: ",a(href="http://github.com/Ellariel/r-shiny-app-pitch", "github.com/ellariel/r-shiny-app-pitch"))
+    ),
   
   # Right panel
   mainPanel(
