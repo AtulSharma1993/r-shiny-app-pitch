@@ -26,7 +26,7 @@ date: 07/06/20
 ## Data
 
 We use classical dataset: Fisher R.A. (1936) The use of multiple measurements in taxonomic problems / Annals of Eugenics.
-```{r}
+```{r echo = TRUE}
 data(iris)
 head(iris, n=3)
 ```
